@@ -4,7 +4,8 @@
   "description": "Just trying some node.js stuff",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "keywords": [
     "nodejs",
@@ -13,6 +14,11 @@
   "author": "Raga Subekti <rfilmriot@gmail.com> (https://raga.dev)",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "4.3.1"
+    "bootstrap": "4.3.1",
+    "chalk": "2.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.11",
+    "typescript": "3.4.3"
   }
 }
