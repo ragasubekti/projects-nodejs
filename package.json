@@ -1,0 +1,18 @@
+{
+  "name": "projects-nodejs",
+  "version": "1.0.0",
+  "description": "Just trying some node.js stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Raga Subekti <rfilmriot@gmail.com> (https://raga.dev)",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "4.3.1"
+  }
+}
